@@ -31,6 +31,7 @@ ytx fetch <url-or-id> [--lang en] [--out ./transcripts]
 }
 - If oEmbed fails, set title/channel to null. Do not fail the whole run.
 - transcript.txt: plain text, segments joined with spaces, wrapped into paragraphs. No timestamps.
+- Keep segment text raw. Do not remove '>>' (speaker change marker) or tags like '[music]'. Later layers use them.
 
 ## Errors (clear message, exit code 1, no stack trace)
 - The video has no captions / captions are disabled.
@@ -65,4 +66,5 @@ databases, web UI, async or parallel downloads, PyPI publishing.
 ## Milestones
 M1  ytx fetch <url> writes both files for a video with English captions.
 M2  --lang, --out, URL formats, all error cases, tests pass, lint clean.
+    Also run the tests on Python 3.11: uv run --python 3.11 pytest
 M3  README (install + usage). uv tool install from GitHub works. Tag v0.1.0.
