@@ -1,0 +1,11 @@
+{
+  "video_id": "FAKEvid0001",
+  "language": "English",
+  "language_code": "en",
+  "is_generated": true,
+  "snippets": [
+    {"text": "Welcome to the made-up demo.", "start": 0.0, "duration": 2.5},
+    {"text": "This line is\ninvented text only.", "start": 2.5, "duration": 3.1},
+    {"text": "Nothing here comes from a real video.", "start": 5.6, "duration": 4.0}
+  ]
+}
