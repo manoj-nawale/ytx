@@ -1,7 +1,7 @@
 [project]
 name = "ytx"
 version = "0.1.0"
-description = "Add your description here"
+description = "Fetch a YouTube video's transcript and save it as TXT and JSON."
 readme = "README.md"
 authors = [
     { name = "Manoj Nawale", email = "nawalemanoj877@gmail.com" }
